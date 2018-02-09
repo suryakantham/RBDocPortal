@@ -1,0 +1,68 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Rollbase Doc Theme
+  version: 5.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Rollbase Overview
+    output: web, pdf
+    folderitems:
+    - title: Welcome
+      url: /mydoc_support.html
+      output: web, pdf
+
+    - title: Getting Started
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: How Tos
+      url: /mydoc_introduction.html
+      output: web, pdf
+
+    - title: Supported features
+      url: /mydoc_supported_features.html
+      output: web, pdf
+
+    - title: Visual Workflow Designer
+      url: /mydoc_about.html
+      output: web, pdf
+
+
+
+  - title: Release Notes
+    output: web, pdf
+    folderitems:
+
+    - title: 5.0 Release Notes
+      url: /mydoc_release_notes_60.html
+      output: web, pdf
+
+    - title: 4.5 Release Notes
+      url: /mydoc_release_notes_50.html
+      output: web, pdf
+
+  - title: Authoring
+    output: web, pdf
+
+    folderitems:
+
+
+    - title: Content reuse
+      url: /mydoc_content_reuse.html
+      output: web, pdf
